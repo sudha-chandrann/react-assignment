@@ -69,7 +69,7 @@ function TableRow({ row, selectedCell, onCellClick, onCellEdit ,onCellBlur}: Cel
           onCellEdit={onCellEdit}
           onCellBlur={onCellBlur}
           className="col-span-2"
-          contentClassName="text-sm md:text-md lg:text-lg text-gray-600 truncate max-w-[300px]"
+          contentClassName="text-sm lg:text-md  text-gray-600 truncate max-w-[300px]"
         >
             {row.jobRequest}
         </EditableCell>
@@ -82,7 +82,7 @@ function TableRow({ row, selectedCell, onCellClick, onCellEdit ,onCellBlur}: Cel
           onCellEdit={onCellEdit}
           onCellBlur={onCellBlur}
           textAlign="right"
-          contentClassName="text-sm md:text-md lg:text-lg text-gray-600 truncate max-w-[150px]"
+          contentClassName="text-sm lg:text-md text-gray-600 truncate max-w-[150px]"
         >
           <span>
             {row.dateSubmitted}
@@ -110,7 +110,7 @@ function TableRow({ row, selectedCell, onCellClick, onCellEdit ,onCellBlur}: Cel
           onCellClick={onCellClick}
           onCellEdit={onCellEdit}
           onCellBlur={onCellBlur}
-          contentClassName="text-sm md:text-md lg:text-lg text-gray-600 truncate max-w-[150px]"
+          contentClassName="text-sm lg:text-md text-gray-600 truncate max-w-[150px]"
         >
             {row.submitter}
         </EditableCell>
@@ -122,7 +122,7 @@ function TableRow({ row, selectedCell, onCellClick, onCellEdit ,onCellBlur}: Cel
           onCellClick={onCellClick}
           onCellEdit={onCellEdit}
           onCellBlur={onCellBlur}
-          contentClassName="text-sm md:text-md lg:text-lg text-gray-600 truncate max-w-[150px]"
+          contentClassName="text-sm lg:text-md text-gray-600 truncate max-w-[150px]"
         >
             {row.url}
         </EditableCell>
@@ -134,7 +134,7 @@ function TableRow({ row, selectedCell, onCellClick, onCellEdit ,onCellBlur}: Cel
           onCellClick={onCellClick}
           onCellEdit={onCellEdit}
           onCellBlur={onCellBlur}
-          contentClassName="text-sm md:text-md lg:text-lg text-gray-600 truncate max-w-[150px]"
+          contentClassName="text-sm lg:text-md text-gray-600 truncate max-w-[150px]"
         >
             {row.assigned}
         </EditableCell>
@@ -148,7 +148,7 @@ function TableRow({ row, selectedCell, onCellClick, onCellEdit ,onCellBlur}: Cel
           onCellBlur={onCellBlur}
           isPriority={true}
           textAlign="center"
-          contentClassName={`text-sm md:text-md lg:text-lg ${row.priority && getPriorityColor(row.priority)} px-2 py-1`}
+          contentClassName={`text-sm lg:text-md ${row.priority && getPriorityColor(row.priority)} px-2 py-1`}
         >
             {row.priority}
         </EditableCell>
@@ -161,7 +161,7 @@ function TableRow({ row, selectedCell, onCellClick, onCellEdit ,onCellBlur}: Cel
           onCellEdit={onCellEdit}
           onCellBlur={onCellBlur}
           textAlign="right"
-          contentClassName="text-sm md:text-md lg:text-lg text-gray-600 truncate max-w-[150px]"
+          contentClassName="text-sm lg:text-md text-gray-600 truncate max-w-[150px]"
         >
             {row.dueDate}
         </EditableCell>
@@ -174,7 +174,7 @@ function TableRow({ row, selectedCell, onCellClick, onCellEdit ,onCellBlur}: Cel
           onCellEdit={onCellEdit}
           onCellBlur={onCellBlur}
           textAlign="right"
-          contentClassName="text-sm md:text-md lg:text-lg text-gray-600 truncate max-w-[150px]"
+          contentClassName="text-sm lg:text-md text-gray-600 truncate max-w-[150px]"
         >
             {row.estValue}
         </EditableCell>
